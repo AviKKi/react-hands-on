@@ -1,0 +1,85 @@
+.wrapper {
+    background-color: #F7F7F7;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.heading {
+  color: #555;
+  margin: 0px;
+
+}
+
+.subHeading{
+  color: #555;
+margin-top:0;
+margin-bottom: 32px;
+}
+
+
+
+.input {
+  background-color: transparent;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: black;
+  box-shadow: none;
+  border: 1px solid rgba(100, 100, 100, 0.129);
+}
+
+.addNewButton {
+  background: -webkit-linear-gradient(#ff9966, #ff5e62);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+}
+
+.addNewButton:hover {
+  border: none;
+}
+
+.todoList{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 1.5rem;
+}
+
+.todoTile {
+  padding: 10px;
+  font-weight: 500;
+    display: flex;
+    gap: 15px;
+  color: white;
+  background: hsl(20, 100%, 70%); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff9966,
+    #ff5e62
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff9966,
+    #ff5e62
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+}
+
+
+.checkCircle {
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, 0.8);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.todoTileDone {
+    background: #AAA !important;
+    text-decoration: line-through;
+}
